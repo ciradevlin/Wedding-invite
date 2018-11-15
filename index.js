@@ -31,5 +31,6 @@ groomsfirst.addEventListener('keydown', function(event) {
   const groomsName = document.querySelector('#groomfn')
   groomsName.innerHTML = '<p>' + groomsfirst.value+ '</p>'
 
+console.log('hi')
 
 });
